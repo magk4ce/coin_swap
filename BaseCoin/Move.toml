@@ -1,0 +1,11 @@
+[package]
+name = "BaseCoin"
+version = "0.0.0"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/move-language/move.git", subdir = "language/move-stdlib", rev = "main" }
+
+MoveNursery={local="../../../move/language/move-stdlib/nursery/"}
+
+[addresses]
+std =  "0x1"
